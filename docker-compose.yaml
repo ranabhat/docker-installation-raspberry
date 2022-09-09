@@ -1,0 +1,18 @@
+version: '3'
+
+services: 
+
+    app:
+        image: portainer/portainer-ce:latest
+        container_name: portainer-container
+        volumes:
+          - type: bind
+            source: /var/run/docker.sock
+            target: /var/run/docker.sock
+          - portainer_data:/data
+        ports:
+          - 8000:8000
+          - 9443:9443
+        restart: always
+volumes:
+  portainer_data:
