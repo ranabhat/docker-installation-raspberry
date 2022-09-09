@@ -52,5 +52,5 @@ POrtainer provides gui presentation for containers running in the raspberry pi
 
 3. [Configure Docker to start in boot](https://docs.docker.com/engine/install/linux-postinstall/#configure-docker-to-start-on-boot)
 
-4 [Portainer Installation](https://docs.portainer.io/start/install/server/docker/linux)
+4. [Portainer Installation](https://docs.portainer.io/start/install/server/docker/linux)
 
